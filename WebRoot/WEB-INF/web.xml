@@ -137,151 +137,151 @@
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>LoginCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.LoginCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.LoginCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>RegisterCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.RegisterCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.RegisterCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>LoginOutCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.LoginOutCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.LoginOutCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>PersonCenter</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.PersonCenter</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.PersonCenter</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>AddressCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.AddressCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.AddressCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdatePw</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.UpdatePw</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.UpdatePw</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>OrdersCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.OrdersCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.orders.Ctrl.OrdersCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ConfirmOrderCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.ConfirmOrderCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.orders.Ctrl.ConfirmOrderCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>DeleteOrdersCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.DeleteOrdersCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.orders.Ctrl.DeleteOrdersCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>CartShowCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.CartShowCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.cart.Ctrl.CartShowCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>DeleteCartCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.DeleteCartCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.cart.Ctrl.DeleteCartCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>AddOrdersCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.AddOrdersCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.orders.Ctrl.AddOrdersCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateQuantityCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.UpdateQuantityCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.cart.Ctrl.UpdateQuantityCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>SettlementCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.SettlementCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.cart.Ctrl.SettlementCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>GoodsDetailsCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.GoodsDetailsCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.goods.Ctrl.GoodsDetailsCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>AddCartCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.AddCartCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.cart.Ctrl.AddCartCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>NameOPriceCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.NameOPriceCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.goods.Ctrl.NameOPriceCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>NameOSalesCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.NameOSalesCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.goods.Ctrl.NameOSalesCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>TypeOSalesCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.TypeOSalesCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.goods.Ctrl.TypeOSalesCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>TypeOPriceCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.TypeOPriceCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.goods.Ctrl.TypeOPriceCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateMoneyCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.UpdateMoneyCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.UpdateMoneyCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>IncomeHistoryCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.history.Ctrl.IncomeHistoryCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.history.Ctrl.IncomeHistoryCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>GetHistoryCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.history.Ctrl.GetHistoryCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.history.Ctrl.GetHistoryCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>CostHistoryCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.history.Ctrl.CostHistoryCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.history.Ctrl.CostHistoryCtrl</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ReduceMoneyCtrl</servlet-name>
-    <servlet-class>cn.edu.zhku.jsj.user.ctrl.ReduceMoneyCtrl</servlet-class>
+    <servlet-class>cn.edu.zhku.jsj.huangxin.user.ctrl.ReduceMoneyCtrl</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>LoginCtrl</servlet-name>
