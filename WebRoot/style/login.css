@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	height: auto;
+	width: auto;
+	border: thin none #FFF;
+	font-family:'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+	margin:0px;
+}
+a{
+	text-decoration: none;
+}
+.background {
+	height: 460px;
+	width: auto;
+	background-image: url(../image/loginbackground.jpg);
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.top {
+	height: 80px;
+	width: auto;
+	padding-left: 100px;
+}
+.loginbg {
+	background-color: #F8F8F8;
+	height: 320px;
+	width: 320px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 70px;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+.logintitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	height: 28px;
+	width: 100px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+}
+.loginbutton {
+	height: 40px;
+	width: 260px;
+	background-color: #0E8DCE;
+	color: #FFF;
+	border: 0px none #FFF;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.login {
+	height: 40px;
+	width: 260px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+.account {
+	height: 40px;
+	width: 260px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-image: none;
+	overflow: hidden;
+	border: 0px none #FFF;
+}
+.mylink {
+	height: 21px;
+	width: 36px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.passwordarea {
+	height: 40px;
+	width: 260px;
+	background-image: url(../image/password.png);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 32px;
+}
+
+.accountarea {
+	height: 40px;
+	background-image: url(../image/user.png);
+	width: 260px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 32px;
+	float: left;
+	overflow: hidden;
+}
+
+.password {
+	margin: auto;
+	height: 40px;
+	width: 260px;
+	background-image: none;
+	overflow: hidden;
+}
+.tips {
+	text-align: center;
+	color: #F00;
+	font-size: 16px;
+	height: 18px;
+	width: 320px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #06F;
+}

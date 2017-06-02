@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url("common.css");
+.showbot{
+	float: left;
+	border: 1px solid #CCC;
+}
+#showbox { background:#eee;}
+#showbox img{ width:400px;height: 400px;}
+.showall{
+	width: 1240px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.tb-property{
+	width:530px;
+	height: 520px;
+	margin-left: 50px;
+	float: left;
+}
+.extInfo{
+	width:220px;
+	height: 520px;
+	float: right;
+}
+.tr-nobdr{
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+.tr-nobdr h3{
+	color: #171717;
+	font-size: 28px;
+	font-weight:400;
+}
+.txt{
+	width: 520px;
+	margin-top: 15px;
+	overflow: hidden;
+	background: #f8f8f8;
+}
+.nowprice{
+	display: block;
+	line-height: 100px;
+	color: #f73a3a;
+	font-size: 24px;
+	float: left;
+}
+.cumulative{
+	float: right;
+	
+}
+.number{
+	float: left;
+	margin-top: 30px;
+	padding: 0px 10px;
+	border-right: #e7e7e7 solid 1px;
+	font-size: 14px;
+	text-align: center;
+	color: #bfbfbf;
+}
+.number em{
+	color: #5885c6;
+	font-style:normal;
+}
+.txt-h{
+	width: 520px;
+	overflow: hidden;
+}
+.tex-o{
+	float: left;
+	font-size: 14px;
+	line-height: 80px;
+	padding-right: 20px;
+	color: #848484;
+}
+.gcIpt{
+	height: 70px;
+}
+.gcIpt input{
+	border: #e3e3e3 solid 1px;
+	padding: 5px 8px;
+	color: #848484;
+	font-size: 16px;}
+.guT{
+	color: #848484;
+	font-size: 14px;
+	padding-right:18px;
+	line-height: 70px;
+}
+.nobdr-btns{
+	padding-top: 25px;
+}
+.Hgt{ color: #424242; font-size:14px; padding-left: 10px;}
+.addcart{
+	background: #fd532d;
+	padding: 0px 50px;
+	border-radius: 4px;
+	color: #FFFFFF;
+	margin-right: 10px;
+	font-size:16px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	font-weight: bolder;
+	line-height: 60px;
+}
+.seller-pop-box{
+	width:200px;
+	overflow: hidden;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.tr{
+	color: #666666;
+	display: block;
+	width:200px;
+	font-size:14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2;  
+}

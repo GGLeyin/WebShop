@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OpenCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.OpenCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsAddCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.GoodsAddCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopInfoCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.ShopInfoCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsCheckCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.GoodsCheckCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsDeleCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.GoodsDeleCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsEditCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.GoodsEditCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderCheckCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.OrderCheckCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DetailOrderCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.DetailOrderCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderDeleCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.OrderDeleCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderEditCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.linye.shop.Ctrl.OrderEditCtrl</servlet-class>
+  </servlet>
+ 
+
+
+  <servlet-mapping>
+    <servlet-name>OpenCtrl</servlet-name>
+    <url-pattern>/servlet/OpenCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsAddCtrl</servlet-name>
+    <url-pattern>/servlet/GoodsAddCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopInfoCtrl</servlet-name>
+    <url-pattern>/servlet/ShopInfoCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsCheckCtrl</servlet-name>
+    <url-pattern>/servlet/GoodsCheckCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsDeleCtrl</servlet-name>
+    <url-pattern>/servlet/GoodsDeleCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsEditCtrl</servlet-name>
+    <url-pattern>/servlet/GoodsEditCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderCheckCtrl</servlet-name>
+    <url-pattern>/servlet/OrderCheckCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailOrderCtrl</servlet-name>
+    <url-pattern>/servlet/DetailOrderCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDeleCtrl</servlet-name>
+    <url-pattern>/servlet/OrderDeleCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderEditCtrl</servlet-name>
+    <url-pattern>/servlet/OrderEditCtrl</url-pattern>
+  </servlet-mapping>
+
+
+
+
+<filter>
+	<filter-name>EncodingFilter</filter-name>
+	<filter-class>cn.edu.zhku.jsj.huangxin.filter.EncodingFilter</filter-class>
+</filter>
+<filter>
+	<filter-name>AllowFilter</filter-name>
+	<filter-class>cn.edu.zhku.jsj.huangxin.filter.AllowFilter</filter-class>
+</filter>
+<filter-mapping>
+	<filter-name>EncodingFilter</filter-name>	
+	<url-pattern>/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>AllowFilter</filter-name>	
+	<url-pattern>/powerjsp/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>AllowFilter</filter-name>	
+	<url-pattern>/CartShowCtrl</url-pattern>
+</filter-mapping>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.LoginCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.RegisterCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOutCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.LoginOutCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonCenter</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.PersonCenter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddressCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.AddressCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePw</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.UpdatePw</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrdersCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.OrdersCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfirmOrderCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.ConfirmOrderCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOrdersCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.DeleteOrdersCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CartShowCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.CartShowCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCartCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.DeleteCartCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddOrdersCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.orders.Ctrl.AddOrdersCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateQuantityCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.UpdateQuantityCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SettlementCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.SettlementCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsDetailsCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.GoodsDetailsCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCartCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.cart.Ctrl.AddCartCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NameOPriceCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.NameOPriceCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NameOSalesCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.NameOSalesCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeOSalesCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.TypeOSalesCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeOPriceCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.goods.Ctrl.TypeOPriceCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMoneyCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.UpdateMoneyCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IncomeHistoryCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.history.Ctrl.IncomeHistoryCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetHistoryCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.history.Ctrl.GetHistoryCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CostHistoryCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.history.Ctrl.CostHistoryCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReduceMoneyCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.user.ctrl.ReduceMoneyCtrl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginCtrl</servlet-name>
+    <url-pattern>/LoginCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterCtrl</servlet-name>
+    <url-pattern>/RegisterCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOutCtrl</servlet-name>
+    <url-pattern>/LoginOutCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonCenter</servlet-name>
+    <url-pattern>/PersonCenter</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddressCtrl</servlet-name>
+    <url-pattern>/AddressCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePw</servlet-name>
+    <url-pattern>/UpdatePw</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrdersCtrl</servlet-name>
+    <url-pattern>/OrdersCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmOrderCtrl</servlet-name>
+    <url-pattern>/ConfirmOrderCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrdersCtrl</servlet-name>
+    <url-pattern>/DeleteOrdersCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartShowCtrl</servlet-name>
+    <url-pattern>/CartShowCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCartCtrl</servlet-name>
+    <url-pattern>/DeleteCartCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddOrdersCtrl</servlet-name>
+    <url-pattern>/AddOrdersCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateQuantityCtrl</servlet-name>
+    <url-pattern>/UpdateQuantityCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SettlementCtrl</servlet-name>
+    <url-pattern>/SettlementCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsDetailsCtrl</servlet-name>
+    <url-pattern>/GoodsDetailsCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCartCtrl</servlet-name>
+    <url-pattern>/AddCartCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NameOPriceCtrl</servlet-name>
+    <url-pattern>/NameOPriceCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NameOSalesCtrl</servlet-name>
+    <url-pattern>/NameOSalesCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeOSalesCtrl</servlet-name>
+    <url-pattern>/TypeOSalesCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeOPriceCtrl</servlet-name>
+    <url-pattern>/TypeOPriceCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMoneyCtrl</servlet-name>
+    <url-pattern>/UpdateMoneyCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IncomeHistoryCtrl</servlet-name>
+    <url-pattern>/IncomeHistoryCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHistoryCtrl</servlet-name>
+    <url-pattern>/GetHistoryCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CostHistoryCtrl</servlet-name>
+    <url-pattern>/CostHistoryCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReduceMoneyCtrl</servlet-name>
+    <url-pattern>/ReduceMoneyCtrl</url-pattern>
+  </servlet-mapping>
+	
+	
+	
+	 <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginAction</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.haofeng.action.AdminLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminEmployeeAction</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.haofeng.action.AdminEmployeeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUsersAction</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.haofeng.action.AdminUsersAction</servlet-class>
+    <!-- 定义init方法，每页最多显示两条数据 -->
+     <init-param>
+	    <param-name>pageSize</param-name>
+		<param-value>8</param-value>
+	 </init-param>
+   
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminOrdersAction</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.haofeng.action.AdminOrdersAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminGoodsAction</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.haofeng.action.AdminGoodsAction</servlet-class>
+    <!-- 定义init方法，每页最多显示两条数据 -->
+     <init-param>
+	    <param-name>pageSize</param-name>
+		<param-value>6</param-value>
+	 </init-param>
+   
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminShopsAction</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.haofeng.action.AdminShopsAction</servlet-class>
+    	<init-param>
+	    	<param-name>pageSize</param-name>
+			<param-value>8</param-value>
+	 	</init-param>
+  </servlet>
+
+
+ 
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLoginAction</servlet-name>
+    <url-pattern>/AdminLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminEmployeeAction</servlet-name>
+    <url-pattern>/AdminEmployeeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUsersAction</servlet-name>
+    <url-pattern>/AdminUsersAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminOrdersAction</servlet-name>
+    <url-pattern>/AdminOrdersAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminGoodsAction</servlet-name>
+    <url-pattern>/AdminGoodsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminShopsAction</servlet-name>
+    <url-pattern>/AdminShopsAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  	<filter>
+    	<filter-name>permissionFilter</filter-name>
+    	<filter-class>cn.edu.zhku.jsj.haofeng.filter.PermissionFilter</filter-class>
+  		<!-- 这里想配置不过滤的jsp -->
+  		<init-param>
+			<param-name>login</param-name>
+			<param-value>/admin/login.jsp</param-value>
+   		</init-param>
+   		<init-param>
+			<param-name>images</param-name>
+			<param-value>/admin/images/*</param-value>
+   		</init-param>
+  	</filter>
+
+  	<filter-mapping>
+    	<filter-name>permissionFilter</filter-name>
+    	<url-pattern>/admin/*</url-pattern>
+  	</filter-mapping>  
+
+
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

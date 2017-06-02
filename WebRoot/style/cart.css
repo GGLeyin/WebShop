@@ -1,0 +1,190 @@
+body {
+	font-family:'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+	margin:0px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.top{
+	height: 20%;
+	width: 100%;
+}
+.top div div a {
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+	text-decoration: none;
+	color: #000;
+}
+.top div div a:hover {
+	color: #06F;
+}
+.ico {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 14px;
+	width: 15px;
+}
+
+.titleleft {
+	float: left;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 3.7%;
+}
+.titleright {
+	float: right;
+	margin-top: auto;
+	margin-right: 2.2%;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.search {
+	background-image: none;
+	height: 8.1%;
+	width: 49%;
+	padding: 0px;
+	float: right;
+	margin-top: 4%;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.searchtext {
+	height: 47px;
+	width: 79.5%;
+	float: left;
+	border: 2px solid #F03726;
+}
+.searchbutton {
+	float: left;
+	height: 48px;
+	width: 20.5%;
+	background-color: #F03726;
+	background-repeat: no-repeat;
+	color: #FFF;
+	border: 0px none #FFF;
+	font-size: 20px;
+	line-height: normal;
+	font-weight: bold;
+	margin: 0px;
+}
+.goodstable {
+}
+.goodstable table {
+	margin-top: 60px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align:center;
+	width:70%;
+	font:12px/180% Arial, Helvetica, sans-serif, "ÐÂËÎÌå";
+}
+.goodstable table tr:hover{
+	background:#EEF6FF;
+}
+.goodstable table tr th {
+	background:#e2f2ff;
+	border-top:3px solid #a7cbff;
+	height:30px;
+}
+.goodstable table tr td {
+	border:1px solid #CADEFF;
+	height:120px;
+}
+.checkbox{
+	width:8%;
+}
+.goods{
+	width:32%;
+}
+.goods span{
+	width:60%;
+	margin-top:20px;
+	text-align:left;
+	float:left;
+}
+.goods img{
+	width:100px;
+	height:80px;
+	margin-right:10px;
+	float:left;
+}
+.price{
+	width:14%;
+}
+.count{
+	width:10%;
+}
+.count input{
+	width:50px;
+	text-align:center;
+}
+.subtotal{
+	width:16%;
+	font-weight:bold;
+}
+.operation a:hover{
+	cursor:pointer;
+	color:red;
+	text-decoration:underline;
+}
+.foot {
+	margin: auto;
+	height: 48px;
+	width: 100%;
+	position: fixed;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: 0px;
+	background-color: #eaeaea;
+	border: 1px solid #CCC;
+	font-size: 14px;
+}
+.total {
+	float: right;
+	width: 100px;
+	margin-top: 16px;
+}
+.selected {
+	float: right;
+	margin-top: 16px;
+	padding-right: 14px;
+}
+.delete {
+	float: left;
+	width: 40px;
+	margin-top: 13px;
+}
+.foot label {
+	float: left;
+	width: 60px;
+	margin-top: 13.4px;
+}
+.settlement {
+	float: right;
+	width: 105px;
+	padding-left: 20px;
+	height: 48px;
+}
+.settlement input {
+	height: 48px;
+	width: 105px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	background-color: #eaeaea;
+	font-size: 14px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+.settlement input:hover {
+	background-color: #E5E5E5;
+}

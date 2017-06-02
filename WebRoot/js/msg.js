@@ -1,0 +1,11 @@
+﻿$(function(){
+   			$("#username").click(function(){
+   				$("#message").text("");
+   			});
+   			$("#password").click(function(){
+   				$("#message").text("");
+   			});
+   			$("#password2").click(function(){
+   				$("#message").text("");
+   			});
+   		});

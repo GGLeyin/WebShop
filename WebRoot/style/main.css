@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import url("common.css");
+.sidebar {
+	float: left;
+	height:400px;
+	width: 11%;
+	margin-left: 7.3%;
+	overflow: hidden;
+}
+.sidebar ul {
+	margin: 0px;
+	padding: 0px;
+}
+.sidebar ul li{
+	list-style-type: none;
+	height: 8.5%;
+	width: 100%;
+	background-color: #F03726;
+	text-align: center;
+	color: #FFF;
+	float: left;
+	padding-top: 16px;
+}
+.sidebar ul li:hover {
+	background-color: #FF6440;
+}
+.sidebar ul li a{
+	color: #FFF;
+	text-decoration: none;
+	font-size:16px;
+}
+.content {
+	float: left;
+	list-style:none;
+	padding: 0px;
+	height: 400px;
+	width: 59.3%;
+	overflow: hidden;
+}
+.wrap {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 400px;
+	width: 100%;
+}
+.pic {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.next {
+	font-size: 68px;
+	position: absolute;
+	right: 0px;
+	bottom: 150px;
+	color: #FFF;
+}
+.next a{
+	color: #FFF;
+	text-decoration: none;
+}
+.information {
+	float: left;
+	height: 400px;
+	width: 240px;
+	border: 1px solid #F00;
+}
+.information img {
+	height: 80px;
+	width: 85px;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+.username {
+	margin-top: 0px;
+	margin-left: 36%;
+}
+.information marquee {
+	color: #F00;
+}
