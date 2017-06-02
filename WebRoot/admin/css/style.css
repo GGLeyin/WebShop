@@ -1,0 +1,167 @@
+*{
+	margin:0px auto;
+	padding:0px;
+	list-style-type:none;
+	text-decoration:none;
+	/*border:0px;*/
+	font-size:12px;
+}	
+
+/*头部样式*/
+#header{
+	height:80px;
+	line-height:80px;
+	background:#FFCC33;
+	/*width:800px;*/
+	width:100%;
+	text-align:center;
+	background-image:url("images/right.jpg");
+}
+
+/*logo样式*/
+.logo{
+	margin-left:50px;
+	float:left;
+}
+
+.logo img{
+	float:letf;
+	width:200px;
+	height:70px;
+	margin-top:5px;
+}
+.top_center{
+	float:left;
+	width:50%;
+	font-size:40px;
+	
+}
+
+/*头部top_right*/
+.top_rigth{
+    float:right;
+    clear:left;
+    width:30%;
+    margin:5px 50px 0 0;
+    color:#000000;
+    font-size:14px;
+
+}
+
+#clear{ 
+	clear:both;
+	width:100%;
+}
+
+.top_rigth ul li{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	margin-left:15px;
+}
+
+/*left.jsp����ʽ*/
+.left_menu{
+	float:left;
+	width:300px;
+	background:#0080FF;
+	height:800px;
+	border:1px solid #f6f6f6;
+}
+
+.left_menu span{
+	margin:auto;
+	border:1px solid #f6f6f6;
+	height:50px;
+	text-align:center;
+	background:#999999;
+}
+
+.left_menu span b{
+	font:"����";
+	font-size:20px;
+	line-height:70px;
+	width:300px;
+	height:50px;
+	color:#0000CC;
+}
+.left_menu h1{
+	text-align:center;
+	font-size:28px;
+}
+.left_menu div{
+	text-align:center;
+	width:100%;
+	border:1px solid #f6f6f6;
+}
+.left_menu a {	
+
+	height:50px;
+	text-align:center;
+	background:#0080FF;
+}
+
+.left_menu a b{
+	font:"����";
+	font-size:20px;
+	line-height:70px;
+	width:300px;
+	height:50px;
+	color:orange;
+}
+
+.left_menu a:hover b{
+	color:#red; 
+	font-size:40px;
+}
+
+
+/*右侧内容*/
+.m-right{
+	/*margin-left:300px;*/
+	height:619px;
+	/*width:500px;*/
+	width:100%;
+	border:1px solid #d1d1d1; 
+}
+
+/*右侧导航*/
+.right-nav{
+	height:30px;
+	border-bottom:1px solid #d1d1d1;
+	background:#f6f6f6;
+}
+.right-nav li{
+	float:left;
+	margin-left:3px;
+	line-height:30px;
+	color:#464646;
+	font-size:12px;
+}
+.right-nav li img{
+	position:relative;
+	top:5px;
+	left:-5px;
+}
+
+
+/*右侧下方显示内容的div*/
+.main{
+	width:100%;
+	height:588px;
+	background:#f6f6f6;;
+	margin:0px auto;
+	padding-top:30px;
+	/*border:1px solid red;*/
+}
+
+.main table{
+	border-collapse:collapse;
+	text-align:center;
+	width:75%;
+}
+
+.main table tr{
+	height:30px;
+}
